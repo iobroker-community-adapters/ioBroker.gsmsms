@@ -33,6 +33,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "@alcalzone/release-script-plugin-manual-review": "^3.7.0",
     "@iobroker/adapter-core": "^3.2.2",
     "serialport-gsm": "^4.0.1"
   },
@@ -79,7 +80,6 @@
     "release": "release-script",
     "translate": "translate-adapter"
   },
-
   "bugs": {
     "url": "https://github.com/iobroker-community-adapters/ioBroker.gsmsms/issues"
   },
