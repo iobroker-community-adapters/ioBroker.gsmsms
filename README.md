@@ -132,8 +132,7 @@ This adapter would not have been possible without the great work of @forelleblau
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 1.0.0 (2024-11-23)
 - (mcm1957) Adapter requires node.js 20 now.
 - (mcm1957) Adapter requires js-controller 5.0.19 and admin 6.17.14 now.
 - (mcm1957) Adapter has been moved to iobroker-community-adapters organization

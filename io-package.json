@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "gsmsms",
-    "version": "0.0.6",
+    "version": "1.0.0",
     "news": {
+      "1.0.0": {
+        "en": "Adapter requires node.js 20 now.\nAdapter requires js-controller 5.0.19 and admin 6.17.14 now.\nAdapter has been moved to iobroker-community-adapters organization\nSome issues reported by adapter checker have been fixed.\nDependencies have been update",
+        "de": "Adapter benötigt node.js 20 jetzt.\nAdapter benötigt jetzt js-controller 5.0.19 und admin 6.17.14.\nAdapter wurde auf iobroker-community-Adapter Organisation verschoben\nEinige von Adapter-Checker gemeldete Probleme wurden behoben.\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Адаптер требует node.js 20.\nАдаптер требует js-контроллер 5.0.19 и admin 6.17.14.\nАдаптер был перемещен в организацию iobroker-community-adapters\nНекоторые проблемы, о которых сообщает адаптер шашки, были исправлены.\nЗависимости обновляются",
+        "pt": "Adaptador requer node.js 20 agora.\nAdaptador requer js-controller 5.0.19 e admin 6.17.14 agora.\nAdapter foi movido para iobroker-community-adapters organização\nAlguns problemas relatados pelo verificador do adaptador foram corrigidos.\nAs dependências foram atualizadas",
+        "nl": "Adapter vereist node.js 20 nu.\nAdapter vereist js-controller 5.01.19 en admin 6.17.14 nu.\nAdapter is verplaatst naar iobroker-community-adapters organisatie\nSommige problemen gemeld door de adapter checker zijn opgelost.\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "Adaptateur nécessite node.js 20 maintenant.\nAdaptateur nécessite js-controller 5.0.19 et admin 6.17.14 maintenant.\nAdaptateur a été transféré à iobroker-community-Adapters organisation\nCertains problèmes signalés par le vérificateur d'adaptateurs ont été corrigés.\nLes dépendances ont été mises à jour",
+        "it": "Adattatore richiede node.js 20 ora.\nAdattatore richiede js-controller 5.0.19 e admin 6.17.14 ora.\nL'adattatore è stato spostato nell'organizzazione di iobroker-community-adapters\nAlcuni problemi segnalati dall'adattatore checker sono stati fissati.\nLe dipendenze sono state aggiornate",
+        "es": "Adaptador requiere node.js 20 ahora.\nAdaptador requiere js-controller 5.0.19 y admin 6.17.14 ahora.\nAdaptador ha sido trasladado a la organización de ibroker-community-adapters\nSe han fijado algunas cuestiones comunicadas por el control de adaptador.\nLas dependencias han sido actualizadas",
+        "pl": "Adapter wymaga Node.js 20 teraz.\nAdapter wymaga sterownika js- 5.0.19 i admin 6.17.14 teraz.\nAdapter został przeniesiony do organizacji adapterów iobroker- community\nNiektóre problemy zgłoszone przez sprawdzacz adaptera zostały naprawione.\nZaktualizowano zależności",
+        "uk": "Адаптер вимагає node.js 20 тепер.\nАдаптер вимагає js-controller 5.0.19 і admin 6.17.14 тепер.\nПереміщено перехід на iobroker-community-adapters\nЗафіксовано деякі питання, які повідомляються перевірником адаптера.\nЗалежність було оновлено",
+        "zh-cn": "适配器现在需要20号节点.\n适配器现在需要js控制器5.0.19和管理员6.17.14.\n适配器已移到职业中介-社区适配器组织\n适配器检查器报告的一些问题已经解决.\n依赖关系已经更新"
+      },
       "0.0.6": {
         "en": "(forelleblau) jsonConfig.json, notifications-manager",
         "de": "(forelleblau) jsonConfig.json, notifications-manager",
@@ -132,12 +145,16 @@
     "adminUI": {
       "config": "json"
     },
-    "dependencies": [{
-      "js-controller": ">=5.0.19"
-    }],
-    "globalDependencies": [{
-      "admin": ">=6.17.14"
-    }]
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=6.17.14"
+      }
+    ]
   },
   "protectedNative": [
     "pin"
@@ -169,7 +186,8 @@
     "defaultrecipientnotifications": ""
   },
   "objects": [],
-  "instanceObjects": [{
+  "instanceObjects": [
+    {
       "_id": "admin",
       "type": "channel",
       "common": {
