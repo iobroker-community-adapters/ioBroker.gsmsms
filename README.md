@@ -134,6 +134,8 @@ This adapter would not have been possible without the great work of @forelleblau
 -->
 
 ### **WORK IN PROGRESS**
+- (mcm1957) Adapter requires node.js 20 now.
+- (mcm1957) Adapter requires js-controller 5.0.19 and admin 6.17.14 now.
 - (mcm1957) Adapter has been moved to iobroker-community-adapters organization
 - (mcm1957) Some issues reported by adapter checker have been fixed.
 - (mcm1957) Dependencies have been update
