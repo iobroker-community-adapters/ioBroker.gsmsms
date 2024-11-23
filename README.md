@@ -122,6 +122,10 @@ Send any command you like, but be aware that you will see only the last line of 
 
 This adapter is based on the [SerialPort-GSM plugin](https://github.com/zabsalahid/serialport-gsm) for communicating with GSM modems, primarily for SMS.
 
+## Credits
+
+This adapter would not have been possible without the great work of @forelleblau (https://github.com/forelleblau), who developed former releases of this adapter.
+
 ## Changelog
 
 <!--
@@ -130,30 +134,27 @@ This adapter is based on the [SerialPort-GSM plugin](https://github.com/zabsalah
 -->
 
 ### **WORK IN PROGRESS**
+- (mcm1957) Adapter has been moved to iobroker-community-adapters organization
+- (mcm1957) Some issues reported by adapter checker have been fixed.
+- (mcm1957) Dependencies have been update
 
 ### 0.0.6
-
--   (forelleblau) jsonConfig.json, notifications-manager
+- (forelleblau) jsonConfig.json, notifications-manager
 
 ### 0.0.5
-
--   (forelleblau) bug fixed (adapter set "undefined" into state values)
+- (forelleblau) bug fixed (adapter set "undefined" into state values)
 
 ### 0.0.4
-
--   (Apollon77) Optimizations, brush up to comply with ioBroker.repositories requirements
+- (Apollon77) Optimizations, brush up to comply with ioBroker.repositories requirements
 
 ### 0.0.3
-
--   (forelleblau) dependencies updated, bugs fixed
+- (forelleblau) dependencies updated, bugs fixed
 
 ### 0.0.2
-
--   (forelleblau) first published version
+- (forelleblau) first published version
 
 ### 0.0.1
-
--   (forelleblau) initial release
+- (forelleblau) initial release
 
 ## License
 
