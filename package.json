@@ -33,7 +33,6 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@alcalzone/release-script-plugin-manual-review": "^3.7.0",
     "@iobroker/adapter-core": "^3.2.2",
     "serialport-gsm": "^4.0.1"
   },
@@ -41,6 +40,7 @@
     "@alcalzone/release-script": "^3.5.9",
     "@alcalzone/release-script-plugin-iobroker": "^3.5.9",
     "@alcalzone/release-script-plugin-license": "^3.5.9",
+    "@alcalzone/release-script-plugin-manual-review": "^3.7.0",
     "@iobroker/adapter-dev": "^1.2.0",
     "@iobroker/testing": "^5.0.0",
     "@types/chai": "^4.3.4",
