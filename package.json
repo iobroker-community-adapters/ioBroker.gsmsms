@@ -2,19 +2,10 @@
   "name": "iobroker.gsmsms",
   "version": "1.0.0",
   "description": "Send and recieve SMS with GSM-hardware",
-  "author": {
-    "name": "forelleblau",
-    "email": "marceladam@gmx.ch"
-  },
+  "author": "forelleblau <marceladam@gmx.ch>",
   "contributors": [
-    {
-      "name": "Apollon77",
-      "email": "iobroker@fischer-ka.de"
-    },
-    {
-      "name": "iobroker-community-adapters",
-      "email": "iobroker-community-adapters@gmx.de"
-    }
+    "Apollon77 <iobroker@fischer-ka.de>",
+    "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
   ],
   "homepage": "https://github.com/iobroker-community-adapters/ioBroker.gsmsms",
   "license": "MIT",
