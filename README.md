@@ -132,6 +132,11 @@ This adapter would not have been possible without the great work of @forelleblau
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires js-controller >= 6.0.11 now
+- (copilot) Adapter requires admin >= 7.6.17 now
+
 ### 1.0.0 (2024-11-23)
 - (mcm1957) Adapter requires node.js 20 now.
 - (mcm1957) Adapter requires js-controller 5.0.19 and admin 6.17.14 now.
@@ -161,6 +166,8 @@ This adapter would not have been possible without the great work of @forelleblau
 
 MIT License
 
+
+Copyright (c) 2026 iobroker-community-adapters <iobroker-community-adapters@gmx.de>  
 Copyright (c) 2023-2024 ioBroker Community Developers <iobroker-community-adapters@gmx.de>  
 Copyright (c) 2022-2023 forelleblau <mailto:marceladam@gmx.ch>
 
