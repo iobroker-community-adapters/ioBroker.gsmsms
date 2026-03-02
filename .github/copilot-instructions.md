@@ -1,6 +1,6 @@
 # ioBroker Adapter Development with GitHub Copilot
 
-**Version:** 0.5.6
+**Version:** 0.5.7
 **Template Source:** https://github.com/DrozmotiX/ioBroker-Copilot-Instructions
 
 This file contains instructions and best practices for GitHub Copilot when working on ioBroker adapter development.
@@ -546,18 +546,27 @@ When creating integration tests that need encrypted passwords (like those marked
 #### Enhanced Test Failure Handling
 ```javascript
 it("Should connect to API with demo credentials", async () => {
-    // ... setup and encryption logic ...
+    const encryptedPassword = await encryptPassword(harness, "demo_password");
     
-    const connectionState = await harness.states.getStateAsync("adapter.0.info.connection");
+    await harness.changeAdapterConfig("your-adapter", {
+        native: {
+            username: "demo@provider.com",
+            password: encryptedPassword,
+        }
+    });
+
+    await harness.startAdapter();
+    await new Promise(resolve => setTimeout(resolve, 60000));
     
-    if (connectionState && connectionState.val === true) {
+    const connectionState = await harness.states.getStateAsync("your-adapter.0.info.connection");
+    
+    if (connectionState?.val === true) {
         console.log("✅ SUCCESS: API connection established");
         return true;
     } else {
-        throw new Error("API Test Failed: Expected API connection to be established with demo credentials. " +
-            "Check logs above for specific API errors (DNS resolution, 401 Unauthorized, network issues, etc.)");
+        throw new Error("API Test Failed: Expected API connection. Check logs for API errors.");
     }
-}).timeout(120000); // Extended timeout for API calls
+}).timeout(120000);
 ```
 
 
