@@ -141,7 +141,6 @@
     },
     "blockly": true,
     "logTransporter": false,
-    "jsonConfig": true,
     "adminUI": {
       "config": "json"
     },
