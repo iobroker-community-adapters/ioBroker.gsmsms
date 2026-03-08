@@ -136,6 +136,7 @@ This adapter would not have been possible without the great work of @forelleblau
 ### **WORK IN PROGRESS**
 - (copilot) Adapter requires admin >= 7.7.22 now
 - (copilot) Adapter requires js-controller >= 6.0.11 now
+- (mcm1957) Dependencies have been update
 
 ### 1.0.0 (2024-11-23)
 - (mcm1957) Adapter requires node.js 20 now.
