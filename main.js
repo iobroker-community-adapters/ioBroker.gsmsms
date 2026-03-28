@@ -10,7 +10,7 @@ const utils = require('@iobroker/adapter-core');
 const serialportgsm = require('serialport-gsm');
 
 // Load your modules here, e.g.:
-// const fs = require("fs");
+// const fs = require("node:fs");
 const gsmModem = serialportgsm.Modem();
 //
 //
